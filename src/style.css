@@ -1,0 +1,116 @@
+
+body {
+    font-family: Inter, sans-serif;
+    /*position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;*/
+    background-color: #23252c;
+}
+
+  
+
+main {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background-image: url(./Images/Rectangle\ 91.png);
+    background-repeat: no-repeat;
+  
+ 
+}
+
+/* Ojo: position absolute it goes at the back of the digital card*/
+
+.nav--photo {
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.nav--title {
+    width: 178.06px;
+    height: 25.81px;
+    left: 186px;
+    top: 382px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 75px;
+
+} 
+
+.nav--title_text {
+    width: 178.06px;
+    height: 14.19px;
+    left: 186px;
+    top: 414px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    padding: 1px 70px;
+ 
+ } 
+ 
+.nav--button_part {
+    padding: 5px 100px;
+}
+
+
+
+/* Main section*/
+ 
+.main--about {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+
+}
+
+.main--partone {
+ padding: 20px 40px;
+}
+
+.main--parttwo {
+ padding: 20px 40px; 
+}
+
+.main--about_text {
+    margin: 0;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+}
+ 
+.main--interests {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+}
+
+.main--interests_text {
+    margin: 0;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+}
+
